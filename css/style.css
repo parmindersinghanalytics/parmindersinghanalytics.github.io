@@ -8809,15 +8809,31 @@ h1, h2, h3, h4, h5,
     font-weight: 600;
     color: #ffbd39; }
 
-.resume-wrap {
-  width: 100%;
-  margin-bottom: 30px;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 30px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px; }
+<div class="row">
+  <div class="col-md-6">
+    <div class="resume-wrap">
+      <!-- Job 1 -->
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="resume-wrap">
+      <!-- Job 2 -->
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">   <!-- or mt-3 / mt-5 depending on spacing you like -->
+  <div class="col-md-6">
+    <div class="resume-wrap">
+      <!-- Job 3 -->
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="resume-wrap">
+      <!-- Job 4 -->
+    </div>
+  </div>
+</div>
   .resume-wrap .date {
     font-weight: 900;
     font-size: 26px;
