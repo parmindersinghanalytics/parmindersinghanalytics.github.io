@@ -1,2 +1,2 @@
-# 16parmindersingh.github.io
+# parmindersinghanalytics.github.io
 My personal portfolio website.
